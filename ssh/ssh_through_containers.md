@@ -10,7 +10,7 @@ chmod 400 ~/.ssh/authorized_keys
 ```
 
 - Run 2 containers with Ubuntu:20.04 
-- - We will create container1 and contianer 2
+  - We will create container1 and contianer 2
 ```
 docker run -it --name container1 ubuntu:20.04
 docker run -it --name container2 ubuntu:20.04
