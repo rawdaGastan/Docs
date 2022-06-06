@@ -48,7 +48,7 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' cont
 ```
 
 - ssh to the container using their IPs 
-- - for example IPs: 172.17.0.4, 172.17.0.5
+  - for example IPs: 172.17.0.4, 172.17.0.5
 ```
 ssh-copy-id root@172.17.0.4
 ssh root@172.17.0.4
