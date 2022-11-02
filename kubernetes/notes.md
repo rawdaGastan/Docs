@@ -45,8 +45,7 @@ helm install <name> <path> --dry-run
 
 ```
 
-
-
+#  More
 ```
 kubectl expose pod nginx --port=80 --name nginx-service --type=NodePort --dry-run=client -o yaml
 ```

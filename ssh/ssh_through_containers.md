@@ -1,5 +1,10 @@
 ## How to ssh between containers (encryption, signing, and ssh)
 
+- get public key (ssh)
+```
+cat /home/rawda/.ssh/id_rsa.pub
+```
+
 - Generate ssh keys
 ```
 ssh-keygen -t rsa
