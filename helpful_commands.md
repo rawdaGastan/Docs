@@ -1,0 +1,5 @@
+# Commands
+
+```bash
+netstat -tlnp
+```
